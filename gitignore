@@ -1,0 +1,17 @@
+# Arquivos e pastas do Python
+*.pyc
+__pycache__/
+
+# Diretório de ambientes virtuais
+venv/
+env/
+
+# Arquivos de configuração local
+.env
+
+# Dados do Django
+db.sqlite3
+
+# Outras pastas desnecessárias
+*.log
+staticfiles/

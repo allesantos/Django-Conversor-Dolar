@@ -1,0 +1,172 @@
+/* Definindo o estilo global da página */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total dos elementos */
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão como Roboto */
+}
+
+/* Estilo do body */
+body {
+    background: linear-gradient(135deg, #d9eaf7, #f0f7fc); /* Define um fundo gradiente com tons de azul */
+    color: #333; /* Define a cor do texto como cinza escuro */
+    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+    display: flex; /* Usa o flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    font-size: 1rem; /* Define o tamanho da fonte base */
+}
+
+/* Container principal */
+.container {
+    background-color: white; /* Fundo branco para destacar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas para um visual moderno */
+    padding: 2rem; /* Espaçamento interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para criar profundidade */
+    width: 100%; /* Largura total do container */
+    max-width: 600px; /* Limita a largura máxima do container */
+    text-align: center; /* Centraliza o texto dentro do container */
+}
+
+/* Título principal */
+h1 {
+    font-family: 'Lexend', sans-serif; /* Fonte moderna para o título */
+    color: #333; /* Cor do texto do título */
+    font-size: 2.5rem; /* Tamanho maior para destacar o título */
+    margin-bottom: 1rem; /* Espaço inferior entre o título e o próximo elemento */
+}
+
+/* Parágrafo de introdução */
+p {
+    font-size: 1rem; /* Tamanho padrão do texto */
+    color: #666; /* Cor cinza para um contraste sutil */
+    margin-bottom: 2rem; /* Espaço inferior para separar do próximo elemento */
+}
+
+/* Alinhamento e espaçamento dos labels */
+label {
+    display: block; /* Faz o label ocupar a largura total do formulário */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 5px; /* Espaço entre o label e o campo de entrada */
+    font-weight: bold; /* Torna o texto do label mais destacado */
+    color: #2a3d66; /* Azul escuro para combinar com o design */
+    font-size: 1rem; /* Ajusta o tamanho do texto do label */
+}
+
+/* Adicionando espaçamento entre os campos do formulário */
+form > p {
+    margin-bottom: 20px; /* Espaço entre os campos de entrada do formulário */
+}
+
+/* Estilo do formulário */
+form {
+    display: flex; /* Usa flexbox para alinhar os elementos do formulário */
+    flex-direction: column; /* Organiza os campos em uma coluna vertical */
+    gap: 1rem; /* Adiciona espaçamento uniforme entre os campos */
+}
+
+/* Estilo para o campo input */
+input {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 12px; /* Adiciona espaçamento interno para os textos */
+    font-size: 1rem; /* Define um tamanho legível para o texto */
+    border: 1px solid #5a91c1; /* Bordas com cor azul médio */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f7fafd; /* Fundo azul muito claro */
+    color: #333; /* Texto na cor cinza escuro */
+    transition: all 0.3s ease; /* Suaviza as alterações de estilo */
+    outline: none; /* Remove a borda padrão ao focar */
+}
+
+/* Efeito ao focar no input */
+input:focus {
+    border-color: #2a3d66; /* Bordas azul escuro ao focar */
+    box-shadow: 0 0 5px rgba(42, 61, 102, 0.5); /* Adiciona uma leve sombra ao focar */
+}
+
+/* Estilo para o campo select */
+select {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 12px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    border: 1px solid #5a91c1; /* Bordas azul médio */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f7fafd; /* Fundo azul muito claro */
+    color: #333; /* Texto cinza escuro */
+    transition: all 0.3s ease; /* Suaviza as alterações de estilo */
+    outline: none; /* Remove o contorno padrão */
+}
+
+/* Estilo para o botão */
+button {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 14px; /* Espaçamento interno */
+    font-size: 1.2rem; /* Texto maior para destaque */
+    background-color: #5a91c1; /* Azul médio */
+    color: white; /* Texto branco */
+    border: none; /* Remove bordas externas */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Mostra o ícone de clique ao passar o mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza alterações de cor e escala */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #2a3d66; /* Muda para azul escuro ao passar o mouse */
+}
+
+/* Efeito ao pressionar o botão */
+button:active {
+    background-color: #1d2b48; /* Azul ainda mais escuro ao pressionar */
+    transform: scale(0.98); /* Reduz ligeiramente o tamanho ao clicar */
+}
+
+/* Estilo para o resultado */
+.resultado {
+    margin-top: 2rem; /* Espaçamento superior */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1.5rem; /* Tamanho maior para destaque */
+    font-weight: bold; /* Texto em negrito */
+    background-color: #d1ecf9; /* Fundo azul claro */
+    border: 1px solid #5a91c1; /* Bordas azul médio */
+    color: #2a3d66; /* Texto azul escuro */
+}
+
+/* Estilo das mensagens gerais */
+.message {
+    margin-top: 1rem; /* Espaçamento superior */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho do texto */
+    text-align: center; /* Centraliza o texto */
+    background-color: #f7fafd; /* Fundo azul muito claro */
+    border: 1px solid #5a91c1; /* Bordas azul médio */
+    color: #2a3d66; /* Texto azul escuro */
+}
+
+/* Mensagem de sucesso */
+.message.success {
+    background-color: #d1ecf9; /* Fundo azul claro indicando sucesso */
+    border-color: #5a91c1; /* Bordas azul médio */
+}
+
+/* Mensagem de erro */
+.message.error {
+    background-color: #f9dede; /* Fundo rosa claro indicando erro */
+    border-color: #f44336; /* Bordas vermelhas */
+    color: #a94442; /* Texto vermelho escuro */
+}
+
+/* Estilo do rodapé */
+footer {
+    position: fixed; /* Fixa o rodapé no final da página */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    left: 0;
+    right: 0;
+    background-color: #2a3d66; /* Fundo azul escuro */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 1rem; /* Espaçamento interno */
+    font-size: 0.9rem; /* Tamanho reduzido do texto */
+}
