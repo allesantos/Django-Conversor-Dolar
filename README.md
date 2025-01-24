@@ -1,4 +1,6 @@
 # Conversor de Moeda (Dólar <-> Real)
+
+<img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-Conversor-Dolar/conversor.png">
  
 ## Índice
 - [Descrição](#Descrição)
