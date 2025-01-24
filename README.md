@@ -1,9 +1,10 @@
 # Conversor de Moeda (Dólar <-> Real)
 
+Este projeto é um aplicativo Django que permite aos usuários converter valores entre dólares americanos (USD) e reais brasileiros (BRL). Ele utiliza a cotação atualizada do dólar, obtida em tempo real por meio de uma API, para realizar as conversões com precisão.
+
 <img src = "https://github.com/allesantos/allesantos/blob/main/imagens/Django-Conversor-Dolar/conversor.png">
  
 ## Índice
-- [Descrição](#Descrição)
 - [Recursos](#Recursos)
 - [Tecnologias Utilizadas](#Tecnologias)
 - [Pré-requisitos](#Pré-requisitos)
@@ -11,9 +12,6 @@
 - [Instalação](#Instalação)
 - [Contribuição](#Contribuição)
 - [Licença](#Licença)
-
-## Descrição
-Este projeto é um aplicativo Django que permite aos usuários converter valores entre dólares americanos (USD) e reais brasileiros (BRL). Ele utiliza a cotação atualizada do dólar, obtida em tempo real por meio de uma API, para realizar as conversões com precisão.
 
 ## Recursos
 - Conversão de dólar para real (USD -> BRL).
